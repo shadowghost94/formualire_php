@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>formulaire</title>
+    </head>
+    <body>
+        <form action="formul.php" method="post">
+            <label for="name">Noms: </label>
+            <input type="text" name="name"></br></br>
+
+            <label for="prenoms">Prenoms: </label>
+            <input type="text" name="prenoms"><?php echo PHP_EOL;?></br></br>
+
+            <label for="age">Age: </label>
+            <input type="number" name="age"></br></br></br>
+
+            <?php echo "\t";?><input type="submit" >
+        </form>
+    </body>
+</html>
